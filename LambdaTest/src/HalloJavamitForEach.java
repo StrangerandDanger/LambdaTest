@@ -6,7 +6,7 @@ public class HalloJavamitForEach
 {
     public static void assignment2()
     {
-        List<String> stringList = (() -> )
+        List<String> stringList = new ArrayList<>();
         for (int i = 0; i < 10; i++)
         {
             stringList.add("HelloJava" + i);
